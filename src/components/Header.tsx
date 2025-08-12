@@ -211,7 +211,7 @@ const Header = () => {
   rel="noopener noreferrer"
   className="font-medium text-inherit no-underline hover:underline"
 >
-  font-medium">SEO & Content Marketing
+  SEO & Content Marketing
 </a>
 
                             <p className="text-sm text-muted-foreground">Keywords, Optimization, Blogs, Traffic</p>
