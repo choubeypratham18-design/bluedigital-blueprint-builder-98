@@ -81,6 +81,16 @@ const ServicesSection = () => {
           })}
         </div>
 
+{/* ===== New Video Section Added ===== */}
+        <div className="relative w-full rounded-2xl overflow-hidden shadow-lg mb-16">
+          <video
+            src="C:/Users/ADNJ/Desktop/digital/bluedigital-blueprint-builder-98/public/Blue-story-latest.mp4"
+            poster="/images/Group-20.png"
+            controls
+            className="w-full h-auto object-cover"
+          />
+        </div>
+
         {/* About Section */}
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
           <div className="space-y-6">
@@ -100,7 +110,7 @@ const ServicesSection = () => {
               Let's Build Something Great!
             </p>
           </div>
-          
+
           <div className="relative">
             <Card className="bg-gradient-to-br from-primary/10 to-accent/10 border-0 shadow-elegant">
               <CardContent className="p-8">
