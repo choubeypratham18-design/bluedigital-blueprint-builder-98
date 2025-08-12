@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X, Code, Video, Users, Lightbulb, BarChart, Headphones, DollarSign, FileText, Target, Rocket, Palette, Smartphone, Globe, Settings, Megaphone, Search, TrendingUp } from 'lucide-react';
+import { Link } from 'lucide-react';
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -45,28 +46,59 @@ const Header = () => {
                         <div className="flex items-start space-x-3">
                           <Palette className="h-5 w-5 text-primary mt-1" />
                           <div>
-                            <p className="font-medium">UI/UX Design</p>
+                            <a 
+  href="https://bluedigital.co.in/what-we-do/ui-ux-design/" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  UI/UX Design
+</a>
                             <p className="text-sm text-muted-foreground">Website Design, Mobile App Design</p>
                           </div>
                         </div>
                         <div className="flex items-start space-x-3">
                           <Target className="h-5 w-5 text-primary mt-1" />
                           <div>
-                            <p className="font-medium">Branding & Identity</p>
+                            <a 
+  href="https://bluedigital.co.in/what-we-do/branding-and-identity/" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  Branding & Identity
+</a>
+
                             <p className="text-sm text-muted-foreground">Logo, Brand Guideline, Brand Voice</p>
                           </div>
                         </div>
                         <div className="flex items-start space-x-3">
                           <Video className="h-5 w-5 text-primary mt-1" />
                           <div>
-                            <p className="font-medium">Graphic & Motion Design</p>
+                            <a 
+  href="https://bluedigital.co.in/what-we-do/graphics-and-motion-design" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  Graphic & Motion Design
+</a>
+
                             <p className="text-sm text-muted-foreground">Creatives, Ads, Videos</p>
                           </div>
                         </div>
                         <div className="flex items-start space-x-3">
                           <Settings className="h-5 w-5 text-primary mt-1" />
                           <div>
-                            <p className="font-medium">Digital Product Design</p>
+                            <a 
+  href="https://bluedigital.co.in/what-we-do/digital-product-design" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  Digital Product Design
+</a>
+
                             <p className="text-sm text-muted-foreground">Saas Product, Software Workflows</p>
                           </div>
                         </div>
@@ -78,28 +110,60 @@ const Header = () => {
                         <div className="flex items-start space-x-3">
                           <Globe className="h-5 w-5 text-primary mt-1" />
                           <div>
-                            <p className="font-medium">Website & E-commerce Development</p>
+                            <a 
+  href="https://bluedigital.co.in/what-we-do/website-and-e-commerce-development" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  Website & E-commerce Development
+</a>
+
                             <p className="text-sm text-muted-foreground">Website, E-commerce, Mobile Responsive</p>
                           </div>
                         </div>
                         <div className="flex items-start space-x-3">
                           <Smartphone className="h-5 w-5 text-primary mt-1" />
                           <div>
-                            <p className="font-medium">Mobile & SaaS Development</p>
+                            <a 
+  href="https://bluedigital.co.in/what-we-do/mobile-and-saas-development" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  Mobile & SaaS Development
+</a>
+
                             <p className="text-sm text-muted-foreground">Mobile Apps, Custom Software, CRM, ERP</p>
                           </div>
                         </div>
                         <div className="flex items-start space-x-3">
                           <Code className="h-5 w-5 text-primary mt-1" />
                           <div>
-                            <p className="font-medium">AI Automation & Integration</p>
+                            <a 
+  href="https://bluedigital.co.in/what-we-do/ai-automation-and-integrations" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  AI Automation & Integration
+</a>
+
                             <p className="text-sm text-muted-foreground">AI Tools, Agents, Consulting</p>
                           </div>
                         </div>
                         <div className="flex items-start space-x-3">
                           <Settings className="h-5 w-5 text-primary mt-1" />
                           <div>
-                            <p className="font-medium">Automation & API Integration</p>
+                            <a 
+  href="https://bluedigital.co.in/what-we-do/automation-and-api-integration" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  Automation & API Integration
+</a>
+
                             <p className="text-sm text-muted-foreground">Payment Gateway, Workflow, Automation</p>
                           </div>
                         </div>
@@ -111,28 +175,60 @@ const Header = () => {
                         <div className="flex items-start space-x-3">
                           <Target className="h-5 w-5 text-primary mt-1" />
                           <div>
-                            <p className="font-medium">Brand Creation</p>
+                            <a 
+  href="https://bluedigital.co.in/what-we-do/brand-creation" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  Brand Creation
+</a>
+
                             <p className="text-sm text-muted-foreground">End-to-end, Research, Strategy, Positioning</p>
                           </div>
                         </div>
                         <div className="flex items-start space-x-3">
                           <Megaphone className="h-5 w-5 text-primary mt-1" />
                           <div>
-                            <p className="font-medium">Social Media Marketing</p>
+                            <a 
+  href="https://bluedigital.co.in/what-we-do/social-media-marketing" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  Social Media Marketing
+</a>
+
                             <p className="text-sm text-muted-foreground">Facebook, Instagram, LinkedIn, X, YouTube</p>
                           </div>
                         </div>
                         <div className="flex items-start space-x-3">
                           <Search className="h-5 w-5 text-primary mt-1" />
                           <div>
-                            <p className="font-medium">SEO & Content Marketing</p>
+                            <a 
+  href="https://bluedigital.co.in/what-we-do/seo-and-content-marketing" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  font-medium">SEO & Content Marketing
+</a>
+
                             <p className="text-sm text-muted-foreground">Keywords, Optimization, Blogs, Traffic</p>
                           </div>
                         </div>
                         <div className="flex items-start space-x-3">
                           <TrendingUp className="h-5 w-5 text-primary mt-1" />
                           <div>
-                            <p className="font-medium">Advertising & Lead Generation</p>
+                            <a 
+  href="https://bluedigital.co.in/what-we-do/advertising-lead-generation" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  Advertising & Lead Generation
+</a>
+
                             <p className="text-sm text-muted-foreground">Paid Marketing, Meta, Google Ads, Network</p>
                           </div>
                         </div>
@@ -152,35 +248,75 @@ const Header = () => {
                         <div className="flex items-start space-x-3">
                           <Code className="h-5 w-5 text-primary mt-1" />
                           <div>
-                            <p className="font-medium">AI in IT</p>
+                            <a 
+  href="https://bluedigital.co.in/services/ai-in-it" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  AI in IT
+</a>
+
                             <p className="text-sm text-muted-foreground">Automation - AI Chatbot, Product Development</p>
                           </div>
                         </div>
                         <div className="flex items-start space-x-3">
                           <BarChart className="h-5 w-5 text-primary mt-1" />
                           <div>
-                            <p className="font-medium">AI in Marketing</p>
+                            <a 
+  href="http://bluedigital.co.in/services/ai-in-marketing/" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  AI in Marketing
+</a>
+
                             <p className="text-sm text-muted-foreground">Automation - Blog, Social Media, Lead Conversion</p>
                           </div>
                         </div>
                         <div className="flex items-start space-x-3">
                           <DollarSign className="h-5 w-5 text-primary mt-1" />
                           <div>
-                            <p className="font-medium">AI in Sales</p>
+                            <a 
+  href="http://bluedigital.co.in/services/ai-in-sales/" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  AI in Sales
+</a>
+
                             <p className="text-sm text-muted-foreground">Automation - Sales Analytics, Qualifying Leads, Calling</p>
                           </div>
                         </div>
                         <div className="flex items-start space-x-3">
                           <Users className="h-5 w-5 text-primary mt-1" />
                           <div>
-                            <p className="font-medium">AI in HR</p>
+                            <a 
+  href="https://bluedigital.co.in/services/ai-in-hr" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  AI in HR
+</a>
+
                             <p className="text-sm text-muted-foreground">Automation - Resume filtering, Interviews, Onboarding</p>
                           </div>
                         </div>
                         <div className="flex items-start space-x-3">
                           <FileText className="h-5 w-5 text-primary mt-1" />
                           <div>
-                            <p className="font-medium">AI in Admin & Accounts</p>
+                            <a 
+  href="https://bluedigital.co.in/services/ai-in-accounting" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  AI in Admin & Accounts
+</a>
+
                             <p className="text-sm text-muted-foreground">Automation - Dashboard, Invoice Processing</p>
                           </div>
                         </div>
@@ -192,28 +328,60 @@ const Header = () => {
                         <div className="flex items-start space-x-3">
                           <Video className="h-5 w-5 text-primary mt-1" />
                           <div>
-                            <p className="font-medium">Corporate & Social Media Videos</p>
+                            <a 
+  href="https://bluedigital.co.in/services/corporate-video" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  Corporate & Social Media Videos
+</a>
+
                             <p className="text-sm text-muted-foreground">Corporate Shoot, Product Video</p>
                           </div>
                         </div>
                         <div className="flex items-start space-x-3">
                           <Video className="h-5 w-5 text-primary mt-1" />
                           <div>
-                            <p className="font-medium">Social Media Reels/Videos</p>
+                            <a 
+  href="https://bluedigital.co.in/services/social-media-videos" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  Social Media Reels/Videos
+</a>
+
                             <p className="text-sm text-muted-foreground">Corporate Shoot, Product Video</p>
                           </div>
                         </div>
                         <div className="flex items-start space-x-3">
                           <Video className="h-5 w-5 text-primary mt-1" />
                           <div>
-                            <p className="font-medium">Motion Graphics & Animation</p>
+                            <a 
+  href="https://bluedigital.co.in/services/motion-graphic-animation" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  Motion Graphics & Animation
+</a>
+
                             <p className="text-sm text-muted-foreground">Introduction, Reels, Explainer Video</p>
                           </div>
                         </div>
                         <div className="flex items-start space-x-3">
                           <Headphones className="h-5 w-5 text-primary mt-1" />
                           <div>
-                            <p className="font-medium">Start Podcasting</p>
+                            <a 
+  href="https://bluedigital.co.in/services/how-to-start-a-podcast" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  Start Podcasting
+</a>
+
                             <p className="text-sm text-muted-foreground">Research, Script, Shoot, Reach</p>
                           </div>
                         </div>
@@ -225,14 +393,30 @@ const Header = () => {
                         <div className="flex items-start space-x-3">
                           <Target className="h-5 w-5 text-primary mt-1" />
                           <div>
-                            <p className="font-medium">Virtual CMO</p>
+                            <a 
+  href="https://bluedigital.co.in/services/virtual-cmo" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  Virtual CMO
+</a>
+
                             <p className="text-sm text-muted-foreground">Marketing, Advertising, Team Management</p>
                           </div>
                         </div>
                         <div className="flex items-start space-x-3">
                           <Users className="h-5 w-5 text-primary mt-1" />
                           <div>
-                            <p className="font-medium">Business Mentorship</p>
+                            <a 
+  href="https://bluedigital.co.in/services/business-consulting" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  Business Mentorship
+</a>
+
                             <p className="text-sm text-muted-foreground">Helping Founders, Key Challenges</p>
                           </div>
                         </div>
@@ -244,21 +428,45 @@ const Header = () => {
                         <div className="flex items-start space-x-3">
                           <BarChart className="h-5 w-5 text-primary mt-1" />
                           <div>
-                            <p className="font-medium">Market Research & Validation</p>
+                            <a 
+  href="https://bluedigital.co.in/services/marketing-validation" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  Market Research & Validation
+</a>
+
                             <p className="text-sm text-muted-foreground">User Research, Market Validation</p>
                           </div>
                         </div>
                         <div className="flex items-start space-x-3">
                           <Code className="h-5 w-5 text-primary mt-1" />
                           <div>
-                            <p className="font-medium">MVP Development</p>
+                            <a 
+  href="https://bluedigital.co.in/services/mvp-and-product-development" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  MVP Development
+</a>
+
                             <p className="text-sm text-muted-foreground">UI/UX, Product Development</p>
                           </div>
                         </div>
                         <div className="flex items-start space-x-3">
                           <Rocket className="h-5 w-5 text-primary mt-1" />
                           <div>
-                            <p className="font-medium">Go-To-Market Strategy</p>
+                            <a 
+  href="https://bluedigital.co.in/services/gtm-strategy" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+    Go-To-Market Strategy
+</a>
+
                             <p className="text-sm text-muted-foreground">Pitch Deck, Digital Marketing</p>
                           </div>
                         </div>
@@ -277,14 +485,30 @@ const Header = () => {
                       <div className="flex items-start space-x-3">
                         <Settings className="h-5 w-5 text-primary mt-1" />
                         <div>
-                          <p className="font-medium">Solar CRM</p>
+                          <a 
+  href="https://arka.se/" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  Solar CRM
+</a>
+
                           <p className="text-sm text-muted-foreground">B2B SaaS Solar CRM</p>
                         </div>
                       </div>
                       <div className="flex items-start space-x-3">
                         <FileText className="h-5 w-5 text-primary mt-1" />
                         <div>
-                          <p className="font-medium">SnapIT.ai</p>
+                          <a 
+  href="http://www.snapit.ae/" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  SnapIT.ai
+</a>
+
                           <p className="text-sm text-muted-foreground">AI Document Mgt. Solution</p>
                         </div>
                       </div>
@@ -302,30 +526,63 @@ const Header = () => {
                       <div className="flex items-start space-x-3">
                         <Users className="h-5 w-5 text-primary mt-1" />
                         <div>
-                          <p className="font-medium">About Us</p>
+                          <a 
+  href="http://bluedigital.co.in/our-company/discover-us/about-us/" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  About Us
+</a>
+
                           <p className="text-sm text-muted-foreground">Since 2009, 450+ Brands</p>
                         </div>
                       </div>
                       <div className="flex items-start space-x-3">
                         <FileText className="h-5 w-5 text-primary mt-1" />
                         <div>
-                          <p className="font-medium">Download Profile</p>
+                          <a 
+  href="https://bluedigital.co.in/wp-content/uploads/2025/04/Blue-Digital-Media.pdf" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  Download Profile
+</a>
+
                           <p className="text-sm text-muted-foreground">Our Company Profile & Portfolio</p>
                         </div>
                       </div>
                       <div className="flex items-start space-x-3">
                         <Users className="h-5 w-5 text-primary mt-1" />
                         <div>
-                          <p className="font-medium">Careers</p>
+                          <a 
+  href="http://bluedigital.co.in/our-company/discover-us/careers/" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  Careers
+</a>
+
                           <p className="text-sm text-muted-foreground">Openings - Marketing, Sales</p>
                         </div>
                       </div>
                       <div className="flex items-start space-x-3">
                         <FileText className="h-5 w-5 text-primary mt-1" />
                         <div>
-                          <p className="font-medium">Blogs</p>
+                          <a 
+  href="http://bluedigital.co.in/our-company/discover-us/blog/" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  Blogs
+</a>
+
                           <p className="text-sm text-muted-foreground">Marketing, Design, Technology</p>
                         </div>
+                      
                       </div>
                     </div>
                   </div>
@@ -341,42 +598,90 @@ const Header = () => {
                       <div className="flex items-start space-x-3">
                         <Lightbulb className="h-5 w-5 text-primary mt-1" />
                         <div>
-                          <p className="font-medium">Education</p>
+                          <a 
+  href="https://bluedigital.co.in/case-category/education/" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  Education
+</a>
+
                           <p className="text-sm text-muted-foreground">Western University Canada, Extramarks</p>
                         </div>
                       </div>
                       <div className="flex items-start space-x-3">
                         <DollarSign className="h-5 w-5 text-primary mt-1" />
                         <div>
-                          <p className="font-medium">Food & Beverages</p>
+                          <a 
+  href="https://bluedigital.co.in/case-category/food-beverages/" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  Food & Beverages
+</a>
+
                           <p className="text-sm text-muted-foreground">Crown Rice, Big Mouth Cafe</p>
                         </div>
                       </div>
                       <div className="flex items-start space-x-3">
                         <Globe className="h-5 w-5 text-primary mt-1" />
                         <div>
-                          <p className="font-medium">E-commerce</p>
+                          <a 
+  href="https://bluedigital.co.in/case-category/e-commerce/" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  E-commerce
+</a>
+
                           <p className="text-sm text-muted-foreground">Glen, Levesque, Aerglo Lighting</p>
                         </div>
                       </div>
                       <div className="flex items-start space-x-3">
                         <Headphones className="h-5 w-5 text-primary mt-1" />
                         <div>
-                          <p className="font-medium">HealthCare</p>
+                          <a 
+  href="https://bluedigital.co.in/case-category/healthcare/" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  HealthCare
+</a>
+
                           <p className="text-sm text-muted-foreground">Phillips HealthCare, DocOnline</p>
                         </div>
                       </div>
                       <div className="flex items-start space-x-3">
                         <BarChart className="h-5 w-5 text-primary mt-1" />
                         <div>
-                          <p className="font-medium">BFSI</p>
+                          <a 
+  href="https://bluedigital.co.in/case-category/bfsi/" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  BFSI
+</a>
+
                           <p className="text-sm text-muted-foreground">Probus Insurance, Barjeel, Bonanza</p>
                         </div>
                       </div>
                       <div className="flex items-start space-x-3">
                         <Settings className="h-5 w-5 text-primary mt-1" />
                         <div>
-                          <p className="font-medium">Hospitality & Real Estate</p>
+                          <a 
+  href="https://bluedigital.co.in/case-category/hospitality-real-estate/" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="font-medium text-inherit no-underline hover:underline"
+>
+  Hospitality & Real Estate
+</a>
+
                           <p className="text-sm text-muted-foreground">The Golden Estate, World Residency, NY One</p>
                         </div>
                       </div>
@@ -388,14 +693,17 @@ const Header = () => {
           </NavigationMenu>
 
           {/* CTA Button */}
-          <div className="hidden md:block">
-            <Button 
-              variant="default" 
-              className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:shadow-lg"
-            >
-              Lets Talk 💬
-            </Button>
-          </div>
+        <div className="hidden md:block">
+  <Button 
+    variant="default" 
+    className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:shadow-lg"
+    asChild
+  >
+    <a href="https://bluedigital.co.in/#popmake-1676" target="_blank" rel="noopener noreferrer">
+      Let's Talk 💬
+    </a>
+  </Button>
+</div>
 
           {/* Mobile menu button */}
           <div className="md:hidden">
@@ -424,12 +732,7 @@ const Header = () => {
                   {item.name}
                 </a>
               ))}
-              <Button 
-                variant="default" 
-                className="w-full mt-4 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
-              >
-                Lets Talk 💬
-              </Button>
+
             </div>
           </div>
         )}
