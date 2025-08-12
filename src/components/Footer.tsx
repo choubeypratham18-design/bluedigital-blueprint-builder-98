@@ -2,6 +2,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent } from '@/components/ui/card';
 import { MessageCircle, Mail, Phone, MapPin, Linkedin, Twitter, Instagram, Facebook } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const services = [
@@ -35,16 +36,19 @@ const Footer = () => {
               Let's discuss how we can help you achieve your digital goals. Get in touch with our team today.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button 
-                size="lg"
-                className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:shadow-lg transform hover:scale-105"
+              <a href="https://wa.link/nfvq0t" target="_blank" rel="noopener noreferrer">
+              <button 
+              size="lg"
+              className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 py-3 rounded-full transaction-all duration-300 hover:shadow-lg transform hover:scale-105"
               >
                 <MessageCircle className="w-5 h-5 mr-2" />
                 Chat with us
-              </Button>
+              </button>
+              </a>
               <div className="flex items-center space-x-2 text-muted-foreground">
                 <Phone className="w-4 h-4" />
                 <span>+91 9876543210</span>
+                <a href="tel:+919958078676" className="hover:text-primary transaction-colors">+91-9958078676</a>
               </div>
             </div>
           </CardContent>
@@ -62,15 +66,17 @@ const Footer = () => {
                 A 15-year-old powerhouse delivering end-to-end solutions in Design, Marketing, and Technology.
               </p>
             </div>
-            
+
             <div className="space-y-3">
               <div className="flex items-center space-x-3 text-muted-foreground">
                 <Mail className="w-5 h-5" />
                 <span>hello@bluedigital.co.in</span>
+                <a href="mailto:growth@bluedigital.co.in" className="hover:text-primary transaction-colors">growth@bluedigital.co.in</a>
               </div>
               <div className="flex items-center space-x-3 text-muted-foreground">
                 <Phone className="w-5 h-5" />
                 <span>+91 9876543210</span>
+                <a href="tel:+919958078676" className="hover:text-primary transition-colors">+919958078676</a>
               </div>
               <div className="flex items-center space-x-3 text-muted-foreground">
                 <MapPin className="w-5 h-5" />
@@ -86,7 +92,8 @@ const Footer = () => {
               {services.map((service, index) => (
                 <li key={index}>
                   <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                    {service}
+                  
+                  {service}
                   </a>
                 </li>
               ))}
